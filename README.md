@@ -10,7 +10,7 @@ Télécharger le fichier depuis la dernière release :
 ➡️ **[HololPOS-CafeLM-Portable-1.0.0.exe](https://github.com/povssam/holol-pos-station-download/releases/latest)**
 
 - Fichier : `HololPOS-CafeLM-Portable-1.0.0.exe`
-- SHA256 : `e8032a45be222a4dac6cd6005223f390c17dc2fb26a6b1e4e0b2972a58c37cba`
+- SHA256 : `4efc289140976de36a18a4e10ae33528f8721fa41a82d4655d341fc3b33d6167`
 
 ## Installation (station Windows Café LM)
 
