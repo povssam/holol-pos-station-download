@@ -10,7 +10,7 @@ Télécharger le fichier depuis la dernière release :
 ➡️ **[HololPOS-CafeLM-Portable-1.0.0.exe](https://github.com/povssam/holol-pos-station-download/releases/latest)**
 
 - Fichier : `HololPOS-CafeLM-Portable-1.0.0.exe`
-- SHA256 : `aad37940ef1181f25aa6da3ce2f87e9c6c325c4d56d90bff8ca6011d7e6e477c`
+- SHA256 : `6ad3140aafc4d0b3a53d6f13d923a795d39372374688c4b9defa08a31babec4d`
 
 ## Installation (station Windows Café LM)
 
@@ -22,9 +22,26 @@ Télécharger le fichier depuis la dernière release :
    - Puis **Exécuter quand même**
 5. **Pare-feu Windows** (si une fenêtre s'ouvre) : cliquer sur **Autoriser**.
 6. **Se connecter** (Login).
-7. Aller dans **Réglages → Imprimante**.
-8. Vérifier que **Pont connecté** passe au **vert**. 🟢
-9. Cliquer sur **Test Rongta brut**.
+7. Aller dans **Plus → Imprimante**.
+8. Choisir la **Rongta** dans la liste.
+9. Cliquer sur **Test rapide Rongta**.
+
+## Diagnostic (si un test échoue)
+
+Dans **Plus → Imprimante**, cliquer sur **Diagnostic** pour ouvrir le Holol
+Doctor. L'écran indique en haut **où est le problème** :
+
+- **Problème matériel** : appuyer sur FEED sur la Rongta. Papier blanc = papier
+  à l'envers ou tête thermique.
+- **Problème Windows / driver** : lancer « Page test Windows ». Si Windows
+  n'imprime pas, réinstaller le pilote Rongta.
+- **Problème Holol RAW** : Windows imprime mais pas Holol. Vérifier l'imprimante
+  sélectionnée et le spouleur.
+- **Prêt** : le **Test Holol texte brut** imprime. La station est prête.
+
+Lancer les tests dans l'ordre. Le premier qui doit passer est
+**Test Holol texte brut**. En cas d'échec, utiliser **Copier rapport
+diagnostic** ou **Copier erreur technique** et l'envoyer au support.
 
 ## Impression de test attendue
 

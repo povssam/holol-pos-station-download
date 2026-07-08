@@ -1,1 +1,1 @@
-aad37940ef1181f25aa6da3ce2f87e9c6c325c4d56d90bff8ca6011d7e6e477c  HololPOS-CafeLM-Portable-1.0.0.exe
+6ad3140aafc4d0b3a53d6f13d923a795d39372374688c4b9defa08a31babec4d  HololPOS-CafeLM-Portable-1.0.0.exe
